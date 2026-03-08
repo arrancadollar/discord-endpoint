@@ -1,0 +1,7 @@
+{
+  "name": "discord-endpoint",
+  "private": true,
+  "dependencies": {
+    "discord-interactions": "^4.4.0"
+  }
+}
