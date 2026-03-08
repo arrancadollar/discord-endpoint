@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Site</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      padding: 24px;
+      text-align: center;
+      background: #111827;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .hero {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 80px 24px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      font-size: 18px;
+      opacity: 0.9;
+      max-width: 700px;
+      margin: 0 auto 28px;
+    }
+    .btn {
+      display: inline-block;
+      background: #22c55e;
+      color: #0f172a;
+      padding: 14px 24px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 24px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 22px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      opacity: 0.8;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Meu Site</h2>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Seu título principal aqui</h1>
+      <p>Troque este texto pela descrição do seu produto, serviço ou projeto. Esse arquivo pode ser enviado para o GitHub e publicado facilmente.</p>
+      <a class="btn" href="#contato">Começar</a>
+    </section>
+
+    <section class="section">
+      <h2>O que você oferece</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Benefício 1</h3>
+          <p>Descreva aqui um ponto forte do seu site ou oferta.</p>
+        </div>
+        <div class="card">
+          <h3>Benefício 2</h3>
+          <p>Descreva aqui um segundo benefício importante.</p>
+        </div>
+        <div class="card">
+          <h3>Benefício 3</h3>
+          <p>Descreva aqui um terceiro benefício para convencer o visitante.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <h2>Contato</h2>
+      <p>Você pode colocar aqui seu WhatsApp, Instagram, formulário ou botão de compra.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Meu Site - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
