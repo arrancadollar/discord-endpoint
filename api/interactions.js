@@ -38,7 +38,7 @@ export default async function handler(req, res) {
   );
 
   if (!isValidRequest) {
-    return res.status(401).send("invalid request signature");
+    return res.status(401).send("Invalid request signature");
   }
 
   const body = JSON.parse(rawBody.toString("utf8"));
